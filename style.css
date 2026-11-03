@@ -75,7 +75,8 @@ p { color: #cfd3e6; }
 
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
 .grid .card { margin-top: 0 !important; }
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 18px; }
+#projects .grid { grid-template-columns: repeat(2, 1fr); }   /* ← add this */
+
 .stats .card { margin-top: 0 !important; }
 .stat { text-align: center; }
 .num { display: block; font-size: 2.4rem; font-weight: 800; background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
